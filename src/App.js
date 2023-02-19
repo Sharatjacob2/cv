@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          That's lovely.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <img src={require("./Sharat.png")} alt="Sharat" width = "500px"/>
+     
+      <div class="Description">
+      <p class="Minortext">I am a 21-year-old college student pursuing my interests in the fields of UI/UX,
+        software development, and machine learning, enthusiastic about building
+        products that make a difference.</p>
+        </div>
+
     </div>
   );
 }
