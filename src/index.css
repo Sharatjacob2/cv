@@ -4,7 +4,7 @@
 .Description {
 
   position: absolute;
-  width: 527.4px;
+  width: 507.4px;
   height: 266px;
   left: 641.78px;
   top: 108.02px;
@@ -23,23 +23,23 @@ body {
   background-color: #212121;
 }
 
-.Circle1 {
+.Circle{
+  border-radius: 50%;
   position: absolute;
+}
+.Circle1 {
   width: 432.09px;
   height: 432.09px;
   left: 124.97px;
   top: 40.24px;
   background: #920D0D;
-  border-radius: 50%;
 }
 
 .Circle2 {
-  position: absolute;
   width: 366.43px;
   height: 366.43px;
   left: 751.92px;
   top: 254.17px;
-  border-radius: 50%;
   background: #D5C21D;
 }
 
@@ -91,4 +91,12 @@ body {
   text-align: right;
 
   color: #FFFFFF;
+}
+
+.Circle3 {
+  width: 230.87px;
+  height: 230.87px;
+  left: 974.32px;
+  top: 728.62px;
+  background: #920D0D;
 }
